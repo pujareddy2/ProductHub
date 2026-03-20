@@ -1,7 +1,7 @@
 # FastAPI + React Product Manager
 
 A full-stack product manager built with FastAPI (Python) backend and React (Vite) frontend in `frontend/`.
-
+--- 
 ## 🚀 Project Structure
 
 - `main.py` — FastAPI application and API endpoints.
