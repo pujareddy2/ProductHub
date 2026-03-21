@@ -1,5 +1,7 @@
 # FastAPI + React Product Manager
 
+# live website link - https://pujareddy2.github.io/ProductHub/ 
+
 A full-stack product manager built with FastAPI (Python) backend and React (Vite) frontend in `frontend/`.
 --- 
 ## 🚀 Project Structure
