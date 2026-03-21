@@ -1,7 +1,7 @@
 import { useEffect, useMemo, useState } from "react";
 
 // Use relative URL since frontend and backend are served from the same origin
-const API_BASE = "/api";
+const API_BASE = "https://producthub-backend-2myu.onrender.com";
 
 const emptyForm = {
   id: "",
