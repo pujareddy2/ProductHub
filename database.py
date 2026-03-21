@@ -15,7 +15,7 @@ def get_db_url():
         # Render uses postgres:// but SQLAlchemy requires postgresql://
         return database_url.replace("postgres://", "postgresql://", 1)
     # Local fallback
-    return "postgresql://postgres:puja@localhost:5555/mydata"
+    return "postgresql://postgres:5555@db.aihtbtcthnqfriwylnfg.supabase.co:5432/postgres?sslmode=require"
 
 db_url = get_db_url()
 engine = create_engine(db_url)
