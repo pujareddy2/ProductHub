@@ -1,0 +1,16 @@
+services:
+  - type: web
+    name: producthub-api
+    runtime: python
+    buildCommand: pip install -r requirements.txt
+    startCommand: uvicorn main:app --host 0.0.0.0 --port 10000
+    envVars:
+      - key: DATABASE_URL
+        fromDatabase:
+          name: producthub-db
+          property: connectionString
+
+databases:
+  - name: producthub-db
+    databaseName: producthub
+    user: producthub
